@@ -1,0 +1,45 @@
+.bg-dark {
+  background-color: #000;
+  color: #fff; }
+
+body {
+  background-color: #4d4b4b; }
+
+#main-header img {
+  width: 100%;
+  height: 100%; }
+
+#main-header .port-item {
+  width: 25%; }
+
+#main-header .fa {
+  font-size: 2em; }
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+#home p {
+  font-size: 1.2em; }
+
+#social .fa {
+  font-size: 2em; }
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important; } }
+
+@media (max-width: 499px) {
+  .flex-row {
+    font-size: 80%; }
+  .head {
+    font-size: 50%; }
+  #social .fa {
+    font-size: 1em; }
+  #heading .fa {
+    font-size: 1em;
+    margin-right: 150%; } }
+
+@media (min-width: 498) {
+  .head {
+    font-size: 50%; } }
